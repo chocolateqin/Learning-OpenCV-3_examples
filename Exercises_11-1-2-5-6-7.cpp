@@ -16,16 +16,16 @@ void help(const char **argv) {
 }
 
 // Get the coordinates of the points after the rotation
-Point2f getPointAffinedPos(const Point2f src, const Point2f center, double angle)  
-{  
-	Point dst;  
-	int x = src.x - center.x;  
-	int y = src.y - center.y;  
+Point2f getPointAffinedPos(const Point2f src, const Point2f center, double angle)
+{
+	Point dst;
+	int x = src.x - center.x;
+	int y = src.y - center.y;
 
-	dst.x = x * cos(angle) + y * sin(angle) + center.x;  
-	dst.y = -x * sin(angle) + y * cos(angle) + center.y;  
-	return dst;  
-}  
+	dst.x = x * cos(angle) + y * sin(angle) + center.x;
+	dst.y = -x * sin(angle) + y * cos(angle) + center.y;
+	return dst;
+}
 
 int main( int argc, const char** argv )
 {
@@ -92,11 +92,11 @@ int main( int argc, const char** argv )
 	Mat affineMatrix = getRotationMatrix2D(Point(matE5_1.cols/2,matE5_1.rows/2), angle, 1.0 );
 	// perspective -> rotate
 	warpPerspective(
-		matE5_1, 
-		matE5_1, 
+		matE5_1,
+		matE5_1,
 		perspectiveMatrix,
-		matE5_1.size(), 
-		INTER_LINEAR, 
+		matE5_1.size(),
+		INTER_LINEAR,
 		BORDER_CONSTANT,
 		Scalar());
 	warpAffine(
@@ -116,11 +116,11 @@ int main( int argc, const char** argv )
 	dst_vertices[3] = getPointAffinedPos(dst_vertices[3],center,angle);
 	perspectiveMatrix = getPerspectiveTransform(src_vertices, dst_vertices);
 	warpPerspective(
-		matE5_2, 
-		matE5_2, 
+		matE5_2,
+		matE5_2,
 		perspectiveMatrix,
-		matE5_2.size(), 
-		INTER_LINEAR, 
+		matE5_2.size(),
+		INTER_LINEAR,
 		BORDER_CONSTANT,
 		Scalar());
 	// the result is almost the same
@@ -134,7 +134,7 @@ int main( int argc, const char** argv )
 	circle(matInpaint,Point(255,255),100,Scalar(255),10);
 	circle(matInpaintMask,Point(255,255),100,Scalar(255),10);
 	imshow("befor inpaint",matInpaint);
-	inpaint(matInpaint,matInpaintMask,matInpaint,10,CV_INPAINT_TELEA);
+	inpaint(matInpaint,matInpaintMask,matInpaint,10,cv::INPAINT_TELEA);
 	imshow("after inpaint",matInpaint);
 	//the result is :if "the writing obscured a real object edge in a picture",the result is bad
 	/************************************************************************/

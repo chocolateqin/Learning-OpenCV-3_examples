@@ -14,15 +14,15 @@ void help(char** argv ) {
 	<< "\nThen read it with:\n ./example_02-10 ../vout.avi\n"
 	<< std::endl;
 }
-	
+
 
 int main( int argc, char** argv ) {
-	
+
 	if (argc != 3) {
 		help(argv);
 		return 0;
 	}
-		
+
 
   cv::namedWindow( "Example 2-11", cv::WINDOW_AUTOSIZE );
   cv::namedWindow( "Log_Polar", cv::WINDOW_AUTOSIZE );
@@ -31,14 +31,14 @@ int main( int argc, char** argv ) {
   //
 
   cv::VideoCapture capture( argv[1] );
-  double fps = capture.get( CV_CAP_PROP_FPS );
+  double fps = capture.get( cv::CAP_PROP_FPS );
   cv::Size size(
-    (int)capture.get( CV_CAP_PROP_FRAME_WIDTH ),
-    (int)capture.get( CV_CAP_PROP_FRAME_HEIGHT )
+    (int)capture.get( cv::CAP_PROP_FRAME_WIDTH ),
+    (int)capture.get( cv::CAP_PROP_FRAME_HEIGHT )
   );
 
   cv::VideoWriter writer;
-  writer.open( argv[2], CV_FOURCC('M','J','P','G'), fps, size );
+  writer.open( argv[2], cv::VideoWriter::fourcc('M','J','P','G'), fps, size );
 
   cv::Mat logpolar_frame, bgr_frame;
 
@@ -57,7 +57,7 @@ int main( int argc, char** argv ) {
         bgr_frame.rows/2 // y
       ),
       40, // Magnitude (scale parameter)
-      CV_WARP_FILL_OUTLIERS // Fill outliers with 'zero'
+      cv::WARP_FILL_OUTLIERS // Fill outliers with 'zero'
     );
 
     cv::imshow( "Log_Polar", logpolar_frame );

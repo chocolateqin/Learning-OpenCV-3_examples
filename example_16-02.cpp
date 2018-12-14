@@ -1,7 +1,7 @@
 // Example 16-2. 2D Feature detectors and 2D Extra Features framework
 //
 // Note, while this code is free to use commercially, not all the algorithms are. For example
-// sift is patented. If you are going to use this commercially, check out the non-free 
+// sift is patented. If you are going to use this commercially, check out the non-free
 // algorithms and secure license to use them.
 //
 
@@ -182,8 +182,8 @@ int main(int argc, char** argv) {
     string img_file1(argv[3]);
     string img_file2(argv[4]);
 
-    Mat img1 = cv::imread(img_file1, CV_LOAD_IMAGE_COLOR);
-    Mat img2 = cv::imread(img_file2, CV_LOAD_IMAGE_COLOR);
+    Mat img1 = cv::imread(img_file1, cv::IMREAD_COLOR);
+    Mat img2 = cv::imread(img_file2, cv::IMREAD_COLOR);
 
     if (img1.channels() != 1) {
         cvtColor(img1, img1, cv::COLOR_RGB2GRAY);

@@ -13,7 +13,7 @@ cv::Mat img;
 cv::Mat markers;
 cv::Mat drawRect;
 int x_0 = -1;
-int y_0 = -1; 
+int y_0 = -1;
 int x_1, y_1;
 int drawr = 0;
 
@@ -48,10 +48,10 @@ static void onMouseClick(int event, int x, int y, int, void*) {
 			cv::ellipse(drawRect, cv::Point(x, y), cv::Size(1, 1),
             0, 0, 360, cv::Scalar(0, 0, 255), 3);
             drawr = 1;
-		} 
- 
+		}
+
         cv::addWeighted(img,0.7,drawRect,0.3, 0, img_preview);
-    
+
         cv::imshow("image", img_preview);
         return;
     }
@@ -61,9 +61,9 @@ static void onMouseClick(int event, int x, int y, int, void*) {
     if(drawr == 1) { //Just moving
 			drawRect.setTo(0);
 			cv::rectangle(drawRect, cv::Point(x_0,y_0), cv::Point(x,y), cv::Scalar(0,0,255), -1);
- 
+
 			cv::addWeighted(img,0.7,drawRect,0.3, 0, img_preview);
-			x_1 = x; y_1 = y;    
+			x_1 = x; y_1 = y;
 			cv::imshow("image", img_preview);
 			return;
 	}
@@ -85,7 +85,7 @@ void help(char** argv) {
              << "\n- On release of left mouse button, we will perform GrabCut"
              << "\n- Press any key to terminate program"
              << "\nUsage: "
-             << argv[0] << " <path/imagename>\n" 
+             << argv[0] << " <path/imagename>\n"
              << "\nExample:\n" << argv[0] << " ../stuff.jpg\n" << endl;
 }
 
@@ -96,7 +96,7 @@ int main(int argc, char** argv) {
         return -1;
     }
 
-    img = cv::imread(std::string(argv[1]), CV_LOAD_IMAGE_COLOR);
+    img = cv::imread(std::string(argv[1]), cv::IMREAD_COLOR);
     if (img.channels() != 3) {
         cerr << "Input image should have 3 channels" << endl;
         exit(1);

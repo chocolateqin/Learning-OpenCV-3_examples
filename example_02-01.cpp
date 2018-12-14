@@ -10,15 +10,15 @@ void help(char** argv ) {
 	<< argv[0] << " ../fruits.jpg\n"
 	<< std::endl;
 }
-	
+
 
 int main( int argc, char** argv ) {
-	
+
 	if (argc != 2) {
 		help(argv);
 		return 0;
 	}
-		
+
 
   cv::Mat img = cv::imread( argv[1], -1 );
 

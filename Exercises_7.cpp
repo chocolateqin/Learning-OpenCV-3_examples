@@ -17,7 +17,7 @@ void help(const char **argv) {
 int main( int argc, const char** argv )
 {
 	help(argv);
-	
+
 	/************************************************************************/
 	/* 1.  Using the cv::RNG random number generator:
 	a.  Generate and print three floating-point numbers, each drawn from a uniform
@@ -25,7 +25,7 @@ int main( int argc, const char** argv )
 	b.  Generate  and  print  three  double-precision  numbers,  each  drawn  from  a
 	Gaussian distribution centered at 0.0 and with a standard deviation of 1.0.
 	c.  Generate and print three unsigned bytes, each drawn from a uniform distri‐
-	bution from 0 to 255.                                                                     
+	bution from 0 to 255.
 	/************************************************************************/
 	RNG rng = theRNG();
 	// a
@@ -82,12 +82,12 @@ int main( int argc, const char** argv )
 	rng.fill(planes[1],RNG::NORMAL,192,10);
 	// b
 	rng.fill(planes[2],RNG::NORMAL,128,2);
-	// c 
-	PCA pca(planes[0],Mat(),CV_PCA_DATA_AS_ROW,2);
+	// c
+	PCA pca(planes[0],Mat(),cv::PCA::DATA_AS_ROW,2);
 	planes[0] = pca.project(planes[0]);
-	pca(planes[1],Mat(),CV_PCA_DATA_AS_ROW,2);
+	pca(planes[1],Mat(), cv::PCA::DATA_AS_ROW,2);
 	planes[1] = pca.project(planes[1]);
-	pca(planes[2],Mat(),CV_PCA_DATA_AS_ROW,2);
+	pca(planes[2],Mat(),cv::PCA::DATA_AS_ROW,2);
 	planes[2] = pca.project(planes[2]);
 	//d
 	f1 = 0;
@@ -103,11 +103,11 @@ int main( int argc, const char** argv )
 	f2 = f2/100;
 	f3 = f3/100;
 	/************************************************************************/
-	/* 4.  page 206 at 《leanring Opencv 3.0》                                                            
+	/* 4.  page 206 at 《leanring Opencv 3.0》
 	/************************************************************************/
 	Matx32d AX(1, 1,
 		       0, 1,
-		      -1 ,1); 
+		      -1 ,1);
 	Mat A = static_cast<Mat>(AX);
 	Mat U, W, V;
 	SVD::compute(A, W, U, V);

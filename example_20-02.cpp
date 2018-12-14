@@ -21,7 +21,7 @@ static void help(char* argv[]) {
             " It generates an image with random points, uses kmeans clustering.\n"
             " And then uses the Mahalanobis distance for classification of new points (colors) .\n"
             "Usage:\n"
-         << argv[0] << "\n\n" 
+         << argv[0] << "\n\n"
          << "ESC to quit\n\n"<< endl;
 }
 int main(int argc, char** argv) {
@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
     vector<cv::Mat> means(CLUSTER_COUNT);
     for(int i = 0; i < CLUSTER_COUNT; i++) {
         cv::calcCovarMatrix(clusters[i], covarMats[i], means[i],
-                            CV_COVAR_NORMAL | CV_COVAR_ROWS, 5);
+                            cv::COVAR_NORMAL | cv::COVAR_ROWS, 5);
 
     }
 

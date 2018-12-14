@@ -5,7 +5,7 @@
 using namespace cv;
 using namespace std;
 
- 
+
 void help(const char **argv) {
 	cout << "\n\n"
 		<< "This program solves the Exercise 1、2、10、11、12、15 and 16 at the end of Chapter 9 \n"
@@ -35,7 +35,7 @@ int main( int argc, const char** argv )
 	b.  Are the output results nearly the same by smoothing the image twice with a
 	5 × 5 Gaussian filter as when you smooth once with two 11 × 11 filters? Why
 	or why not?                                                                     */
-	/************************************************************************/	
+	/************************************************************************/
 	src = imread(argv[1]);
 	if (src.empty())
 	{
@@ -68,7 +68,7 @@ int main( int argc, const char** argv )
 	/************************************************************************/
 	Mat singleChanel100 = Mat(100,100,CV_8U,Scalar(0));
 	singleChanel100.at<uchar>(50,50) = 255;
-	
+
 	//a
 	GaussianBlur(singleChanel100,temp,cv::Size(5,5),0);
 	imshow("5 × 5 Gaussian filter",temp);
@@ -102,7 +102,7 @@ int main( int argc, const char** argv )
 	line(matLowVariance,Point(256,256),Point(256-100,256),Scalar(255),1);
 	line(matLowVariance,Point(256,256),Point(256-100,256+100),Scalar(255),1);
 	imshow("a wheel  of  lines  meeting  at  a  single  point",matLowVariance);
-	bilateralFilter(matLowVariance,temp,5,10.0,2.0); 
+	bilateralFilter(matLowVariance,temp,5,10.0,2.0);
 	imshow("bilateralFilter",temp);
 	/************************************************************************/
 	/* 11.  Load an image of a scene and convert it to grayscale.
@@ -112,8 +112,8 @@ int main( int argc, const char** argv )
 	Part b of this exercise) is nonzero. Display the results.                                                                     */
 	/************************************************************************/
 	cvtColor(src,gray,COLOR_BGR2GRAY);
-	//a 
-	morphologyEx(gray,temp,CV_MOP_TOPHAT,Mat());
+	//a
+	morphologyEx(gray,temp,cv::MORPH_TOPHAT,Mat());
 	imshow(" morphological  Top  Hat",temp);
 	//b
 	temp.convertTo(mask,CV_8UC1);
@@ -156,7 +156,7 @@ int main( int argc, const char** argv )
 	{
 		line(matWithLines,Point(arng.uniform(0,512),arng.uniform(0,521)),Point(arng.uniform(0,512),arng.uniform(0,521)),Scalar(255),1);
 	}
-	//45 degree line 
+	//45 degree line
 	line(matWithLines,Point(0,512),Point(512,0),Scalar(255),1);
 	matWithLines.convertTo(matWithLines,CV_32FC1,1.0/255);
 	// detects  only  45-degree lines
@@ -171,7 +171,7 @@ int main( int argc, const char** argv )
 	matKernel.at<float>(2,1) = 0;
 	matKernel.at<float>(2,2) = 0;
 	filter2D(matWithLines,temp,CV_32FC1,matKernel);
-	threshold(temp,temp,0.99,1,CV_THRESH_BINARY);
+	threshold(temp,temp,0.99,1,cv::THRESH_BINARY);
 	/************************************************************************/
 	/* 16.  Separable kernels: create a 3 × 3 Gaussian kernel using rows [(1/16, 2/16, 1/16),
 	(2/16, 4/16, 2/16), (1/16, 2/16, 1/16)] and with anchor point in the middle.

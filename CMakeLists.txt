@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 project( examples )
 
-find_package( OpenCV REQUIRED )
+find_package( OpenCV 4 REQUIRED )
 find_package( OpenGL )
 
 if(OPENGL_FOUND)
