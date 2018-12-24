@@ -1,0 +1,342 @@
+[
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/Exercises_9_5.dir/Exercises_9_5.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_9_5.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_9_5.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/Exercises_9_4.dir/Exercises_9_4.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_9_4.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_9_4.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/Exercises_5.dir/Exercises_5.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_5.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_5.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_21-01.dir/example_21-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_21-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_21-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_20-02.dir/example_20-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_20-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_20-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_19-03.dir/example_19-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_19-02.dir/example_19-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_18-01.dir/example_18-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_18-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_18-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_17-01.dir/example_17-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_17-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_17-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_16-01.dir/example_16-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_16-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_16-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_19-01.dir/example_19-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_15-BackgroundSubtractor.dir/example_15-BackgroundSubtractor.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-BackgroundSubtractor.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-BackgroundSubtractor.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_15-05.dir/example_15-05.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-05.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-05.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/Exercises_7.dir/Exercises_7.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_7.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_7.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_15-04.dir/example_15-04.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-04.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-04.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_15-02.dir/example_15-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/Exercises_9_1-2-10-11-12-15-16.dir/Exercises_9_1-2-10-11-12-15-16.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_9_1-2-10-11-12-15-16.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_9_1-2-10-11-12-15-16.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_14-02.dir/example_14-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_16-02.dir/example_16-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_16-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_16-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_14-01.dir/example_14-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_05-01.dir/example_05-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_05-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_05-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_04-01.dir/example_04-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_09-03.dir/example_09-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-11.dir/example_02-11.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-11.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-11.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_08-02.dir/example_08-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_08-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_08-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-04.dir/example_02-04.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-04.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-04.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_08-03.dir/example_08-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_08-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_08-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_19-04.dir/example_19-04.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-04.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_19-04.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_17-02.dir/example_17-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_17-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_17-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_10-01.dir/example_10-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_10-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_10-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-08.dir/example_02-08.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-08.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-08.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_12-04.dir/example_12-04.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-04.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-04.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_22-01.dir/example_22-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_22-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_22-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_13-03.dir/example_13-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_13-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_13-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_04-03.dir/example_04-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-03.dir/example_02-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_20-01.dir/example_20-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_20-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_20-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_12-02.dir/example_12-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-10.dir/example_02-10.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-10.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-10.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/Exercises_8_1.dir/Exercises_8_1.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_8_1.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_8_1.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_15-01.dir/example_15-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_14-04.dir/example_14-04.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-04.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-04.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-05.dir/example_02-05.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-05.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-05.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_11-01.dir/example_11-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_11-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_11-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_14-03.dir/example_14-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_14-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_08-01.dir/example_08-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_08-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_08-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-06.dir/example_02-06.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-06.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-06.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/Exercises_11-1-2-5-6-7.dir/Exercises_11-1-2-5-6-7.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_11-1-2-5-6-7.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/Exercises_11-1-2-5-6-7.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-09.dir/example_02-09.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-09.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-09.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_04-04.dir/example_04-04.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-04.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-04.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-02.dir/example_02-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_04-02.dir/example_04-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_04-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_15-03.dir/example_15-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_15-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-07.dir/example_02-07.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-07.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-07.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_18-01_from_disk.dir/example_18-01_from_disk.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_18-01_from_disk.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_18-01_from_disk.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_07-01.dir/example_07-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_07-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_07-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_09-01.dir/example_09-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_09-02.dir/example_09-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_10-02.dir/example_10-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_10-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_10-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_02-01.dir/example_02-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_02-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_10-03.dir/example_10-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_10-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_10-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_09-04.dir/example_09-04.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-04.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_09-04.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_12-01.dir/example_12-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_11-03.dir/example_11-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_11-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_11-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_11-02.dir/example_11-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_11-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_11-02.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_12-03.dir/example_12-03.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-03.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_12-03.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_13-01.dir/example_13-01.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_13-01.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_13-01.cpp"
+},
+{
+  "directory": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/example_13-02.dir/example_13-02.cpp.o -c /home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_13-02.cpp",
+  "file": "/home/qlc/learning/OpenCV/Learning-OpenCV-3_examples/example_13-02.cpp"
+}
+]
