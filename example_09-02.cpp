@@ -5,7 +5,6 @@
 // mouse events
 //
 void my_mouse_callback(
-
   int event, int x, int y, int flags, void* param
 );
 cv::Rect box;
@@ -19,7 +18,6 @@ void draw_box( cv::Mat& img, cv::Rect box ) {
     img,
     box.tl(),
     box.br(),
-
     cv::Scalar(0x00,0x00,0xff)    /* red */
   );
 }

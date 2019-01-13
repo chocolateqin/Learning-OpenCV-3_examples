@@ -96,6 +96,7 @@ Exercises_8_1: /usr/local/lib/libopencv_aruco.so.4.0.0
 Exercises_8_1: /usr/local/lib/libopencv_bgsegm.so.4.0.0
 Exercises_8_1: /usr/local/lib/libopencv_bioinspired.so.4.0.0
 Exercises_8_1: /usr/local/lib/libopencv_ccalib.so.4.0.0
+Exercises_8_1: /usr/local/lib/libopencv_cvv.so.4.0.0
 Exercises_8_1: /usr/local/lib/libopencv_dnn_objdetect.so.4.0.0
 Exercises_8_1: /usr/local/lib/libopencv_dpm.so.4.0.0
 Exercises_8_1: /usr/local/lib/libopencv_face.so.4.0.0

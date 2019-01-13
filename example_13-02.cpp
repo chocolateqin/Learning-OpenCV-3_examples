@@ -147,17 +147,16 @@ int main( int argc, char** argv ) {
     cv::normalize(hist[i], hist[i], 1, 0, cv::NORM_L1);
     for( int h = 0; h < h_bins; h++ )
       for( int s = 0; s < s_bins; s++ ) {
-	float bin_val = hist[i].at<float>(h, s);
-	if( bin_val != 0 )
-	  sigv.push_back( cv::Vec3f(bin_val, (float)h, (float)s));
+        float bin_val = hist[i].at<float>(h, s);
+        if( bin_val != 0 )
+          sigv.push_back( cv::Vec3f(bin_val, (float)h, (float)s));
       }
 
     // make Nx3 32fC1 matrix, where N is the number of nonzero histogram bins
     //
     sig[i] = cv::Mat(sigv).clone().reshape(1);
     if( i > 0 )
-      cout << "Hist[0] vs Hist[" << i << "]: "
-	   << EMD(sig[0], sig[i], cv::DIST_L2) << endl;
+      cout << "Hist[0] vs Hist[" << i << "]: " << EMD(sig[0], sig[i], cv::DIST_L2) << endl;
   }
 
   cv::waitKey(0);

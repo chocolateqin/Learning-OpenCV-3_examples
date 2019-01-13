@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
   }
 
   cv::Mat src = cv::imread(argv[1],1);
-
+  cout << "size:" << src.size() << endl;
   if( src.empty() ) { cout << "Can not load " << argv[1] << endl; return -1; }
 
   double M = atof(argv[2]);

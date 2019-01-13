@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
        << "\nto generate a pair of integers and a pair of"
        << "\n floating-point numbers"
        << "\n\nCall:\n" << argv[0] << "\n" << endl;
-
+  cv::setRNGSeed(6);
   cv::RNG rng = cv::theRNG();
   cout << "An integer: "      << (int)rng   << endl;
   cout << "Another integer: " << int(rng)   << endl;

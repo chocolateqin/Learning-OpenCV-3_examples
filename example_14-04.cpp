@@ -28,6 +28,7 @@ static vector<Point> sampleContour( const Mat& image, int n=300 ) {
     random_shuffle(all_points.begin(), all_points.end());
     vector<Point> sampled;
     for (int i=0; i<n; i++)
+    
       sampled.push_back(all_points[i]);
     return sampled;
   }

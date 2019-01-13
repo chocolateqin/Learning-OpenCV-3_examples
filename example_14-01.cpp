@@ -16,10 +16,11 @@ void on_trackbar( int, void* ) {
     g_binary,
     contours,
     cv::noArray(),
-    cv::RETR_LIST,
+    cv::RETR_EXTERNAL, //cv::RETR_LIST,
     cv::CHAIN_APPROX_SIMPLE
   );
   g_binary = cv::Scalar::all(0);
+  
 
   cv::drawContours( g_binary, contours, -1, cv::Scalar::all(255));
   cv::imshow( "Contours", g_binary );
